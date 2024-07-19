@@ -28,5 +28,4 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'warfile'
-    publishLocation: 'FilePath'
-    TargetPath: '"C:\Users\dines\Downloads\DevopsBasics-Master-main\DevopsBasics-Master-main\webapp\target\webapp.war"'
+    publishLocation: 'Container'
